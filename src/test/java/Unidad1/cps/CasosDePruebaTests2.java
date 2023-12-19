@@ -1,4 +1,4 @@
-package cps;
+package Unidad1.cps;
 
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
