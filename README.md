@@ -1,1 +1,1 @@
-Proyecto para el cusro de Selenium realizado por Tsoft
+Proyecto para el curso de Selenium realizado por Tsoft
