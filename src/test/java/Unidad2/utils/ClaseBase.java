@@ -26,6 +26,26 @@ public class ClaseBase {
     public ClaseBase(WebDriver driver) {
         this.driver = driver;
     }
+
+    //Getters y setters
+
+    public WebDriver getDriver() {
+        return driver;
+    }
+
+    public void setDriver(WebDriver driver) {
+        this.driver = driver;
+    }
+
+    public WebDriverWait getWait() {
+        return wait;
+    }
+
+    public void setWait(WebDriverWait wait) {
+        this.wait = wait;
+    }
+
+
     //Métodos que envuelven las acciones del driver
 
     public void click(By localizador) {

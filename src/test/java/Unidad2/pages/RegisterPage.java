@@ -22,6 +22,21 @@ public class RegisterPage extends ClaseBase {
     public void ingresarFirstName(String firstName){
         agregarTexto(esperarPorElementoAClickear(locatorFirstName),firstName);
     }
+    public void ingresarLastname(String lastName){
+        agregarTexto(esperarPorElementoAClickear(locatorLastName),lastName);
+    }
+    public void ingresarCorreo(String email){
+        agregarTexto(esperarPorPresenciaElementoWeb(locatorEmail),email);
+    }
+    public void ingresarPassword(String password){
+        agregarTexto(esperarPorPresenciaElementoWeb(locatorPassword),password);
+    }
+    public void confirmarPassword(String passwordConfirmacion){
+        agregarTexto(esperarPorPresenciaElementoWeb(locatorPasswordConfirmation),passwordConfirmacion);
+    }
+    public void clickRegistrar(){
+        click(esperarPorElementoAClickear(locatorSignInButton));
+    }
 
 
 }
